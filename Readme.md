@@ -1,4 +1,4 @@
-# 🩺 WhatsApp Healthcare Bot
+# 🩺 WhatsApp HealthCare Bot
 
 A conversational AI bot for **rural healthcare triage** using **WhatsApp**, **Gemini AI**, and **Google Maps**.
 
@@ -115,6 +115,8 @@ Then type symptoms like:
 ---
 
 ## 🎥 Demo Video
+Watch setup video here:
+🔗 [Click to view](https://drive.google.com/file/d/1vAAllk2w4cUid7SxVx_0TnMJRyPKvXRQ/view?usp=drive_link)
 
 Watch the working demo here:  
 🔗 [Click to view](https://drive.google.com/file/d/1XUYwrJtPmhQDhbMkIyiAbYQXdQev-lXk/view?usp=drive_link)
@@ -140,9 +142,14 @@ Watch the working demo here:
 
 ## 👨‍💻 Author
 
-**Shree Nath**  
+**Shree Nath**
 AI & Healthcare Innovator  
 📧 Contact: shreenath064@gmail.com
+
+##Team Members
+**Arjun Chaudhary**
+**Aditya Singh Baghel**
+**Suraj Kumar**
 
 
 
