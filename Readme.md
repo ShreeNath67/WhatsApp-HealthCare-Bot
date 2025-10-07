@@ -31,7 +31,7 @@ A conversational AI bot for **rural healthcare triage** using **WhatsApp**, **Ge
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/ShreeVatsa19/Whatsapp-healthcare-bot.git
+git clone https://github.com/ShreeNath67/WhatsApp-HealthCare-Bot.git
 cd whatsapp-healthcare-bot
 pip install -r requirements.txt
 ```
@@ -143,3 +143,4 @@ Watch the working demo here:
 **Shree Nath**  
 AI & Healthcare Innovator  
 📧 Contact: shreenath064@gmail.com
+
