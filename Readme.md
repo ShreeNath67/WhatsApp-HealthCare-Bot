@@ -115,7 +115,7 @@ Then type symptoms like:
 ---
 
 ## 🎥 Demo Video
-Watch setup video here:
+Watch setup video here:                                                                                                                                         
 🔗 [Click to view](https://drive.google.com/file/d/1vAAllk2w4cUid7SxVx_0TnMJRyPKvXRQ/view?usp=drive_link)
 
 Watch the working demo here:  
@@ -150,6 +150,7 @@ AI & Healthcare Innovator
 **Arjun Chaudhary**
 **Aditya Singh Baghel**
 **Suraj Kumar**
+
 
 
 
