@@ -140,16 +140,17 @@ Watch the working demo here:
 
 ---
 
-## 👨‍💻 Author
-
-**Shree Nath**
+## 👨‍💻 Author  
+**Shree Nath Mahato**  
 AI & Healthcare Innovator  
-📧 Contact: shreenath064@gmail.com
+📧 Contact: shreenath064@gmail.com  
 
-##Team Members
-**Arjun Chaudhary**
-**Aditya Singh Baghel**
+## Team Members  
+**Arjun Chaudhary**  
+**Aditya Singh Baghel**  
 **Suraj Kumar**
+
+
 
 
 
