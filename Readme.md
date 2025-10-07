@@ -1,97 +1,145 @@
-🩺 WhatsApp Healthcare Bot
-A conversational AI bot for rural healthcare triage using WhatsApp, Gemini, and Google Maps.
+# 🩺 WhatsApp Healthcare Bot
 
-✅ Features
-- Symptom-based triage (fever, malaria, dengue, etc.)
-- WHO-style first aid and preventive advice
-- Gemini fallback for open-ended queries
-- Language selection + auto-detection (English/Hindi)
-- Doctor referral via Google Maps
+A conversational AI bot for **rural healthcare triage** using **WhatsApp**, **Gemini AI**, and **Google Maps**.
 
-Sure, Shree — here’s a clean, concise README.md with all essentials:
+---
 
-🩺 WhatsApp Healthcare Bot
-A conversational AI bot for rural healthcare triage using WhatsApp, Gemini, and Google Maps.
+## ✅ Features
 
-✅ Features
-- Symptom-based triage (fever, malaria, dengue, etc.)
-- WHO-style first aid and preventive advice
-- Gemini fallback for open-ended queries
-- Language selection + auto-detection (English/Hindi)
-- Doctor referral via Google Maps
+- 🤒 Symptom-based triage (fever, malaria, dengue, etc.)
+- 🩹 WHO-style first aid and preventive advice
+- 🧠 Gemini fallback for open-ended queries
+- 🗣 Language selection + auto-detection (English/Hindi)
+- 🏥 Doctor referral via Google Maps
 
-🛠 Tools Used
-- Flask – Web server for Twilio webhook
-- Twilio – WhatsApp messaging API (Twilio Sandbox)
-- Ngrok – Exposes local server (Ngrok Dashboard)
-- Gemini API – Handles fallback queries (Google AI Studio)
-- Langdetect – Detects user language
-- Google Maps API – Provides nearby health center links
+---
 
-📦 Setup
-1. Clone repo and install dependencies:
--
+## 🛠 Tools Used
+| Tool              | Purpose                                      |
+|-------------------|----------------------------------------------|
+| Flask             | Web server for Twilio webhook                |
+| Twilio            | WhatsApp messaging API (Twilio Sandbox)      |
+| Ngrok             | Exposes local Flask server to the web        |
+| Gemini API        | Handles fallback queries using Google AI     |
+| Langdetect        | Detects and switches between English/Hindi   |
+| Google Maps API   | Finds nearby hospitals or clinics            |
+
+---
+
+## ⚙️ Setup Guide (Step-by-Step)
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/ShreeVatsa19/Whatsapp-healthcare-bot.git
+cd whatsapp-healthcare-bot
 pip install -r requirements.txt
--
+```
 
-2. Create .env file:
--
-TWILIO_ACCOUNT_SID=your_sid
-TWILIO_AUTH_TOKEN=your_token
+### 2️⃣ Create `.env` File
+
+⚠️ These Twilio credentials are for **testing only** (hackathon use). Replace with your own later.
+Copy paste in '.env' file
+
+```env
+TWILIO_ACCOUNT_SID=AC32221d007c565448f669a5e880323083
+TWILIO_AUTH_TOKEN=8953bd25c3aa7e7f6c9a0e1ffc9f0d4c
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 FLASK_ENV=development
 FLASK_DEBUG=1
 GEMINI_API_KEY=your_gemini_key
 GOOGLE_API_KEY=your_maps_key
--
+```
 
-3. Run bot:
--
+### 3️⃣ Run Flask App
+
+```bash
 python app.py
--
+```
+### 4️⃣ Setup Ngrok
 
-4. Setup ngrok:
--
-Go to ngrok and create an account and then you will find access tokken there.
-Copy that tokken and paste on next cmd.
--
+- Create an account at [Ngrok Dashboard](https://dashboard.ngrok.com)
+- Add your auth token (for demo use only):
 
-5. Start ngrok:
--
+```bash
+ngrok config add-authtoken 33eOuODzwGUSyDi2bEgjVorSSAF_4vsMmGbsggGSMz4XAbLQv
+```
+
+- Start Ngrok:
+
+```bash
 ngrok http 5000
--
+```
 
-6. Setup Twilio:
--
-Create an account on Twilio and choose whatsapp.
-Connect your whatsapp with Twilio by scanning QR code and Code will be given for initilization. Send that and It will be connected.
-You will find SID and Auth_Tokken at right side. Copy and paste to your .env file.
--
+- Use this live webhook URL for Twilio:
+  ```
+  https://unimperious-occultly-leopoldo.ngrok-free.dev/whatsapp
+  ```
 
-6. Paste ngrok URL into Twilio Sandbox:
--
-https://your-ngrok-url.ngrok-free.dev/whatsapp
--
+### 5️⃣ Setup Twilio (WhatsApp Sandbox)
 
-📱 How to Use
-Send “Hello” to:
--
-+1 415 523 8886
--
-
-Test Symptoms:
-| Symptom         | Mapped Disease | Notes                                 |
-|-----------------|----------------|----------------------------------------|
-| fever           | Fever          | Core symptom, triggers fever flow      |
-| temperature     | Fever          | Alternate phrasing for fever           |
-| chills          | Fever          | Often co-occurs with fever             |
-| headache        | Fever          | Shared across multiple conditions      |
-| cold            | Cold           | Primary trigger for cold flow          |
-| runny nose      | Cold           | Common cold symptom                    |
-| sneezing        | Cold           | May overlap with allergies             |
-| blocked nose    | Cold           | Useful for nasal congestion detection  |
+- Create account at [Twilio](https://www.twilio.com/whatsapp)
+- Verify email and phone
+- Go to Messaging → Try WhatsApp
+- Scan QR code or send join code to sandbox number: `+1 415 523 8886`
+- Copy your SID and Auth Token → paste into `.env`
+- In Sandbox settings, paste your Ngrok URL under “When a message comes in”
 
 ---
 
+## 📱 How to Use
 
-For further assistance watch demo video.
+Send “Hello” to: `+1 415 523 8886`
+
+Then type symptoms like:
+
+- `fever`
+- `cold`
+- `chills`
+- `headache`
+
+---
+## 🧩 Test Symptoms
+
+| Symptom      | Mapped Disease | Notes                                 |
+|--------------|----------------|----------------------------------------|
+| fever        | Fever          | Core symptom, triggers fever flow      |
+| temperature  | Fever          | Alternate phrasing                     |
+| chills       | Fever          | Often co-occurs with fever             |
+| headache     | Fever          | Shared across multiple conditions      |
+| cold         | Cold           | Primary trigger for cold flow          |
+| runny nose   | Cold           | Common cold symptom                    |
+| sneezing     | Cold           | May overlap with allergies             |
+| blocked nose | Cold           | Useful for nasal congestion detection  |
+
+---
+
+## 🎥 Demo Video
+
+Watch the working demo here:  
+🔗 [Click to view](https://drive.google.com/file/d/1XUYwrJtPmhQDhbMkIyiAbYQXdQev-lXk/view?usp=drive_link)
+
+---
+
+## 📎 Notes
+
+- These credentials are for **temporary testing** only.
+- Replace with your own Twilio and Ngrok accounts for production.
+- Keep `.env` private — add it to `.gitignore`.
+
+---
+
+## 💡 Future Enhancements
+
+- Multilingual support (Marathi, Tamil, etc.)
+- Hospital booking API integration
+- Voice-based interaction system
+- Streamlit or Flutter-based frontend
+
+---
+
+## 👨‍💻 Author
+
+**Shree Nath**  
+AI & Healthcare Innovator  
+📧 Contact: shreenath064@gmail.com
