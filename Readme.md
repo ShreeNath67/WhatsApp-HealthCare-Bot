@@ -78,7 +78,7 @@ ngrok http 5000
 
 ### 5️⃣ Setup Twilio (WhatsApp Sandbox)
 
-- Create account at [Twilio]([https://www.twilio.com/whatsapp](https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn))
+- Create account at [Twilio](https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn)
 - Verify email and phone
 - Go to Messaging → Try WhatsApp
 - Scan QR code or send join code to sandbox number: `+1 415 523 8886`
@@ -143,5 +143,6 @@ Watch the working demo here:
 **Shree Nath**  
 AI & Healthcare Innovator  
 📧 Contact: shreenath064@gmail.com
+
 
 
