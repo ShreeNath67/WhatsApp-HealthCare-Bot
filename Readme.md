@@ -143,12 +143,13 @@ Watch the working demo here:
 ## 👨‍💻 Author  
 **Shree Nath Mahato (Leader)**  
 AI & Healthcare Innovator  
-📧 Contact: shreenath064@gmail.com  
+📧 Contact: shreenath.ventures17@gmail.com 
 
 ## Team Members  
 **Arjun Chaudhary**  
 **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).  
 **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905). 
+
 
 
 
