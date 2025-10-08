@@ -148,7 +148,8 @@ AI & Healthcare Innovator
 ## Team Members  
 **Arjun Chaudhary**  
 **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).  
-**Suraj Kumar**
+**Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905). 
+
 
 
 
