@@ -141,7 +141,7 @@ Watch the working demo here:
 ---
 
 ## 👨‍💻 Author  
-**Shree Nath Mahato**  
+**Shree Nath Mahato (Leader)**  
 AI & Healthcare Innovator  
 📧 Contact: shreenath064@gmail.com  
 
@@ -149,6 +149,7 @@ AI & Healthcare Innovator
 **Arjun Chaudhary**  
 **Aditya Singh Baghel**  
 **Suraj Kumar**
+
 
 
 
