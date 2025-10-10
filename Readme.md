@@ -89,7 +89,7 @@ ngrok http 5000
 
 ## 📱 How to Use
 
-Send “Hello” to: `+1 415 523 8886`
+Send “Hello” to: `+1 415 523 8886` and select language.
 
 Then type symptoms like:
 
@@ -146,9 +146,10 @@ AI & Healthcare Innovator
 📧 Contact: shreenath.ventures17@gmail.com 
 
 ## Team Members  
-**Arjun Chaudhary**  
+**Arjun Chaudhary** - [GitHub Profile](https://github.com/Arzunchy).  
 **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).  
 **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905). 
+
 
 
 
